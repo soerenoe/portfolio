@@ -1,5 +1,5 @@
 # Soeren_Portfolio
-Data science portfolio
+This is a feature of my data related work projects
 
 # Project 1: Overview
 * Created a tool that estimates
