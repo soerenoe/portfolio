@@ -5,3 +5,8 @@ This is a feature of my data related work projects with fake data, so you can ge
 * Importing the dataset as a table into a database and filtering data of interest
 * Calculating columns of interest such as common recruitment channels
 * Calculating metrics of interest such as turn rate and salary-equality
+
+# [Project 2: Explorative analysis in Python](https://www.kaggle.com/code/srensterlund/hr-exploratory-analysis)
+* Reading and preparing data
+* Univariate analysis describing trends and tendencies
+* Exploring correlations between variables
