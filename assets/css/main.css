@@ -4685,5 +4685,11 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
-
 	}
+	.text-section {
+		background-color: white;
+		padding: 20px;
+		width: 100%; /* Adjust as needed */
+		margin: 0 auto; /* Center align the container */
+		max-width: 72rem; /* Ensures the section doesn't exceed the specified width */
+	}	

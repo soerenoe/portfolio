@@ -10,11 +10,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />	
-		$bg = $('<div class="main-bg" id="' + $this.attr('id') + '-bg"></div>')
-        .css('background-image', (
-            'url("images/bgdesign.jpg"), url("' + $primaryImg.attr('src') + '")'
-        ))
-        .appendTo($body);
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -60,7 +55,7 @@
 									visualization</a></h2>
 									<p>Data visualization in Tableau of a sample HR dataset</p>
 								</header>
-								<a href="generic.html" class="image main"><img src="images/tableau.webp" alt="" /></a>
+								<a href="generic.html" class="image main"><img src="images/featured.png" alt="" /></a>
 								<ul class="actions special">
 									<li><a href="generic.html" class="button large">View project</a></li>
 								</ul>
@@ -70,9 +65,10 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="https://github.com/NumFig/PortfolioProjects/blob/main/Data%20exploration%20queries.sql">Data exploration in SQL</a></h2>
+										<h2><a href="https://github.com/NumFig/PortfolioProjects/blob/main/Data%20exploration%20queries.sql">Data exploration<br /> 
+											in SQL</a></h2>
 									</header>
-									<a href="https://github.com/NumFig/PortfolioProjects/blob/main/Data%20exploration%20queries.sql" class="image fit"><img src="images/sql.jpg" alt="" /></a>
+									<a href="https://github.com/NumFig/PortfolioProjects/blob/main/Data%20exploration%20queries.sql" class="image fit"><img src="images/sqlpost.png" alt="" /></a>
 									<p>Data exploration of HR dataset in SQL Server</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/NumFig/PortfolioProjects/blob/main/Data%20exploration%20queries.sql" class="button">View project</a></li>
@@ -80,13 +76,13 @@
 								</article>
 								<article>
 									<header>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
+										<h2><a href="https://www.kaggle.com/code/srensterlund/hr-exploratory-analysis">Data Analysis<br />
+										in Python</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="https://www.kaggle.com/code/srensterlund/hr-exploratory-analysis" class="image fit"><img src="images/pythonpost.png" alt="" /></a>
+									<p>Exploratory HR data analysis in Python</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="https://www.kaggle.com/code/srensterlund/hr-exploratory-analysis" class="button">View project</a></li>
 									</ul>
 								</article>
 							</section>
@@ -96,7 +92,8 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form method="post" action="sendform.php">
+								<h2>Send a message</h2>
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
