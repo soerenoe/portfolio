@@ -11,6 +11,6 @@ This is a feature of my data related work projects with fake data, so you can ge
 * Univariate analysis describing trends and tendencies
 * Exploring correlations between variables
 
-#[Project 3: HR visualization in Tableau](https://public.tableau.com/views/HROverview_17073099076150/CriticalOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+# [Project 3: HR visualization in Tableau](https://public.tableau.com/views/HROverview_17073099076150/CriticalOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 *Visualizing selected HR metrics based on analysis
 *Interactive data filtering for an intuitive overview
